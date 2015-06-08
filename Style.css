@@ -1,0 +1,236 @@
+body{
+	background-image: url("bg.png");
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	height: 150px;
+	width: 100%;
+	background-color: #2574A9;
+	border-bottom: solid black 1px;
+}
+
+#quizlogo{
+	background-image: url(logo.png);
+	background-size: 85%;
+	height: 120px;
+	width: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+.dropdown{
+	margin-left: 558px;
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown .dropdown-menu{
+position: absolute;
+display: none;
+top: 100%;
+left: 0;
+margin: 0;
+list-style-type: none;
+width: 100%;
+padding: 0;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+/** Button styles **/
+.dropdown button{
+	width: 772px;
+	background: #2574A9;
+	border: none;
+	margin: 0;
+	padding: 0.4em 1em;
+	font-size: 1em;
+	text-align: center;
+	color: #F4F4F4;
+	border-bottom: solid black 0.3px;
+}
+
+/** List item styles **/
+.dropdown a  {
+	display: block;
+	padding: 0.2em 0.8em;
+	text-decoration: none;
+	background-color: #2574A9;
+	color: #F4F4F4;
+	text-align: center;
+
+}
+
+/** List item hover styles **/
+.dropdown a:hover{
+	background: #2a82be;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 150px;
+	width: 100%;
+	background-color: #2574A9;
+	border-top: solid black 1px;
+	clear: both;
+}
+
+#navcontainer{
+	width: 100%;
+	margin-top: 30px;
+}
+
+#navlist{
+	background-image: url("bg.png");
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	width: 800px;
+	height: 100px;
+}
+
+#navlist li{
+
+	float: left;
+	width: 180px;
+	border: solid rgba(0,0,0, 0.3) 1px;
+	background-color: #F9BF3B;
+	margin: 7px;
+	display: inline-block;
+	font: arial black;
+	font-size: 24px;
+	box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.75);
+	color: #F4F4F4;
+	text-decoration: none;
+}
+#navlist li a{
+	padding: 40px 0;
+	display: block;
+	text-decoration: none;
+}
+
+#navlist li a:visited{
+	text-decoration: none;
+	color: #F4F4F4;
+}
+
+#navlist li:hover{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  text-decoration: none;
+}
+
+/** Tutorial **/
+
+#questioncontainer{
+	width: 100%;
+	margin-top: 30px;
+	color: #F4F4F4;
+}
+
+#navlist2{
+	background-image: url("bg.png");
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	width: 800px;
+	height: 100px;
+	text-decoration: none;
+}
+
+#navlist2 li{
+
+	float: left;
+	height: 60px;
+	width: 180px;
+	border: solid rgba(0,0,0, 0.3) 1px;
+	background-color: #F9BF3B;
+	margin: 7px;
+	padding-top: 50px;
+	display: inline-block;
+	font: arial black;
+	font-size: 24px;
+	text-decoration: none;
+	box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.75);
+	color: #F4F4F4;
+}
+
+#navlist2 li:hover{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  text-decoration: none;
+}
+
+#navlist2 li a{
+	display: block;
+	text-decoration: none;
+}
+
+#navlist2 li a:visited{
+	text-decoration: none;
+	color: #F4F4F4;
+}
+
+#question1{
+	text-align: center;
+	border: solid transparent;
+	margin: 0 auto;
+	width: 0 auto;
+	height: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	background-color: #F9BF3B;
+}
+
+#contactid{
+	text-align: center;
+	color: #f4f4f4;
+	height: 0 auto;
+	width: 0 auto;
+	background-color: #F9BF3B;	
+}
+
+#correctguess{
+	background-color: #F9BF3B;
+	text-align: center;
+	font-size: 20px;
+	overflow: auto;
+	height: 0 auto;
+	width: 0 auto;
+	color: #f4f4f4;
+	margin-bottom: auto;
+}
+
+#footerid{
+	position: relative;
+}
